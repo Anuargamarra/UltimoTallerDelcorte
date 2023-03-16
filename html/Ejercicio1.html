@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario #1</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+<h1>Zoop Keeper Application Form</h1>
+<h4>Please complete the form. Mandatory fields are marked with a*</h4>
+ 
+<fieldset>
+
+    <legend> <strong> CONTACT DETAILS</strong></legend>
+    <tr>
+        <td><label> Name<samp style="color: red;">*</samp></label> <input type="text" required pattern="\s[a-zA-Z]+" maxlength="60"><br><br> Telephone <input type="number" pattern="+\d{2}-\d{3}-\d{9}"><br><br> Email<samp style="color: red;">*</samp> <input type="email"required maxlength="30"></td>
+        
+    </tr>
+    
+    <table>
+
+    </table>  
+</fieldset><br>
+
+<fieldset>
+    <legend><strong>PERSONAL INFORMATION</strong></legend>
+   <table>
+
+    <tr>
+        <td>Age <br><br> Gender<br><br> When did you <br>first know you <br> wated to be a zoo-keeper?</td>
+        <td><input type="number"required min="18"><br><br><input type="text"> <br><br><textarea name="" id="" cols="30" rows="5"></textarea></td>
+    </tr>
+    
+</table>
+    
+</fieldset><br>
+
+<fieldset>
+<legend><strong>PICK YOUR FAVORITE ANINALS</strong></legend>
+<input type="checkbox">Zebra
+<input type="checkbox">Cat
+<input type="checkbox">Anaconda
+<input type="checkbox">Human <br><br>
+<input type="checkbox">Elephant
+<input type="checkbox">Wildebeest
+<input type="checkbox">Pigeon
+<input type="checkbox">Crab
+</fieldset><br><br>
+
+<input type="button" value="Submit Application">
+
+
+</body>
+</head>
+
